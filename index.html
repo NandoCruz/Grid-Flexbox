@@ -8,20 +8,29 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="./imagens/logo-fc.png">
-
-        <nav>
-            <ul class="menu">
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Produtos</a></li>
-                <li><a href="/">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="logo-nome">
+            <img class="logo" src="./imagens/logo-fc.png">
+            <p>Fernando Cruz</p>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="taggle">
+            <label class="checkbox" for="taggle">
+                <div class="trace"></div>
+                <div class="trace"></div>
+                <div class="trace"></div>
+            </label>
+            <div class="menu"></div>
+            <nav class="menu-itens">
+                <span><a href="#home">Sobre</a></span>
+                <span><a href="#cartao">Produtos</a></span>
+                <span><a href="#camisa">Contato</a></span>
+            </nav>
+        </div>
     </header>
 
-    <h1>Seção Home</h1>
+    <h1 id="home">Seção Home</h1>
 
-    <section class="home">
+    <section class="home01">
         <div class="item">
             <img src="./imagens/camisa_01.png">
             <p>Só frente</p>
@@ -53,9 +62,9 @@
         </div>
     </section>
     
-    <h1>Section Cartão</h1>
+    <h1 id="cartao">Seção Cartão</h1>
 
-    <section class="cartao">
+    <section class="cartao01">
         <div>
             <img src="./imagens/cartao08.png">
             <p>Verso colorido</p>
@@ -89,9 +98,9 @@
         </div>
     </section>
 
-    <h1>Section Camisa</h1>
+    <h1 id="camisa">Seção Camisa</h1>
 
-    <section class="camisa">
+    <section class="camisa01">
         <div class="camisa-item">
             <img src="./imagens/camisa_01.png">
             <p>Só frente</p>
